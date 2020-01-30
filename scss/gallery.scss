@@ -1,0 +1,46 @@
+#gallery{
+    height:100%;
+    width:100%;
+    display:flex;
+    
+    h4{
+        color:white;
+        font-size:120%;
+    }
+}
+
+.galleryBox{
+    justify-content:space-around;
+
+    span{
+        font-size:120%;
+        color:$main-yellow;
+    }
+}
+
+.galHeader{
+    margin-left:-500px;
+}
+
+.galImg{
+    height:40%;
+    object-fit:cover;
+    padding:10px;
+}
+
+.imgOne{
+    margin-left:-300px;
+}
+
+.imgTwo{
+    margin-right:-300px;
+}
+
+.btn{
+    height:60px;
+    width:200px;
+    color:white;
+    background-color:$main-yellow;
+    line-height:60px;
+    text-align:center;
+}

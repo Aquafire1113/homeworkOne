@@ -1,0 +1,39 @@
+footer{
+    height:150px;
+    width:100%;
+    background-color:$main-blue;
+    left:0;
+    bottom:0;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.footerDiv{
+    width:33.3%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:white;
+    flex-direction:column;
+
+    a{
+        color:white;
+    }
+}
+
+.sm{
+    width:100%;
+    height:30%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    img{
+        border-radius:100%;
+        height:30px;
+        width:30px;
+        object-fit:cover;
+        padding:5px;
+    }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "homeworkone",
+  "version": "1.0.0",
+  "description": "Homework one for NEWM 5858 with Todd Shelton",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "node-sass scss/styles.scss css/main.css -w",
+    "server": "live-server",
+    "start": "npm-run-all --parallel compile:sass server"
+  },
+  "author": "Abbigail Merrill abbigail.merrill@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  },
+  "dependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}
